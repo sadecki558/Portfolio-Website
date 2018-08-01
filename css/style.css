@@ -20,6 +20,20 @@ body {
   @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
+.center{
+  position: absolute;
+  top:50%;
+  left:0;
+  transform: translate(0,-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.center span{
+  font-family: arial;
+  font-size: 48px;
+  color: #000;
+}
 
 a {
   color: #2c98f0;

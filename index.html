@@ -31,6 +31,7 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	<script src="/js/typed.js"></script>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -81,7 +82,23 @@
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner js-fullheight">
 					   					<div class="desc">
-						   					<h1>Hi! <br>I'm Matthew</br></h1>
+											<script type="text/javascript">
+											$(function() {
+												$(".type").typed({
+													strings: [
+														"Hello World!",
+														"My name is Matthew Sadecki",
+													],
+													typeSpeed: 70,
+													backDelay: 200,
+													loop: true
+												})	
+											})
+											</script>
+											<div class="center">
+												<span class="type"></span>
+											</div>
+						   					<h1>Hi! <br>I'm Matthew</h1>
 												<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
